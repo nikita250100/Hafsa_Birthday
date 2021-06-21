@@ -1,0 +1,73 @@
+/*element selector*/
+h1
+{
+    color:white;
+}
+body{
+    background-image:url("Birthday.jpeg");
+    background-repeat: no-repeat;
+     /* background-position:top left; */
+}
+p
+{
+    border: 2px solid black;
+    background-color: rgb(248, 136, 170) !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: '20px';
+    line-height: 30px;
+    box-sizing:border-box;
+    }
+.orange
+{
+    background-color:rgb(243, 56, 243);
+    height:120px;
+    width:600px;
+    color:black;
+    border-width: 200px;
+    border-radius:250px;
+}
+.yellow{
+    border: 2px solid black;
+}
+.red{
+    
+    background-color: red;
+    
+    
+}
+#green{
+    background-color:pink;
+    height:50px;
+    width:500px;
+    border-color: black;
+    border-radius:150px;
+    color:black;
+}
+/*grouping selector*/
+/* .yellow, #green {
+    border: 2px solid black;
+} */
+.labels
+{
+background-color: rgb(241, 156, 28);
+}
+#link
+{
+    color:black;
+    background-color:white;
+    cursor:help;
+    text-decoration:none;
+
+}
+#link:hover{
+    color:brown;
+}
+#imgdec2{
+    position:relative;
+    left:3px;
+    width:40px;
+    height:40px;
+    bottom:-10px;
+    
+}
+
